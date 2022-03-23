@@ -1,0 +1,136 @@
+/** @format */
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+.main-header-container {
+  background-image: url(https://www.deccanherald.com/sites/dh/files/articleimages/2021/01/05/group-discussion-istock-603992138-935358-1609832067.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(28, 28, 28);
+  background-blend-mode: multiply;
+  padding-bottom: 100px;
+}
+.outer-container {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 40px 10px;
+}
+.inner-container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+}
+.outer-container1,
+.outer-container2 {
+  display: flex;
+}
+
+.container-left,
+.container-right {
+  flex: 1;
+}
+.container-right {
+  text-align: end;
+}
+.container-left {
+  text-align: start;
+  margin-bottom: 20px;
+}
+.bg-darkgrey {
+  background-color: rgb(216, 216, 216);
+}
+.inner-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+}
+.inner-container1 {
+  width: 70%;
+  margin: auto;
+  padding: 10px 50px;
+}
+.simon-image-1 {
+  margin-top: -70px;
+}
+.team-image {
+  margin-top: -110px;
+  position: relative;
+}
+.company-image {
+  margin-bottom: -460px;
+  position: relative;
+}
+.link-cards {
+  background-color: white;
+  width: 300px;
+  margin: 20px;
+}
+.container-blog {
+  text-align: end;
+  justify-content: end;
+}
+@media only screen and (max-width: 600px) {
+  .inner-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .outer-container1 {
+    flex-direction: column-reverse;
+  }
+  .simon-image-1 {
+    height: 50vh;
+    width: 100vw;
+    margin-top: -20px;
+  }
+
+  .outer-container {
+    width: 100%;
+    margin-top: 5x;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+  .container-left,
+  .container-right {
+    width: 90%;
+    justify-content: center;
+    justify-content: center;
+
+    margin: auto;
+  }
+  .book-image {
+    display: none;
+  }
+  .inner-container1 {
+    width: 100%;
+  }
+  .inner-container2 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .outer-container2 {
+    flex-direction: column;
+  }
+  .team-image {
+    margin-top: 10px;
+  }
+  .company-image {
+    margin: 10px;
+  }
+  .container-right {
+    text-align: start;
+    padding: 10px;
+  }
+  .container-left {
+    text-align: start;
+    padding: 10px;
+  }
+}
