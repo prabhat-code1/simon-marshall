@@ -66,13 +66,13 @@ a {
   position: relative;
 }
 .company-image {
-  margin-bottom: -460px;
+  margin-bottom: -400px;
   position: relative;
 }
 .link-cards {
   background-color: white;
   width: 300px;
-  margin: 20px;
+  margin: 20px 10px;
 }
 .container-blog {
   text-align: end;
